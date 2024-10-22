@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+ <androidx.appcompat.widget.AppCompatButton
+     android:id="@+id/btnlol"
+     android:layout_width="72dp"
+     android:layout_height="40dp"
+     android:backgroundTint= "#803333"
+     android:layout_centerVertical="true"
+     android:layout_centerHorizontal="true"
+     android:text="Clikyy likcyyyy"
+     />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#30A23C"
+        android:text="oimamachup"
+        android:layout_above="@+id/btnlol"
+
+        >
+
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="skibidi"
+        android:layout_above="@+id/btnlol"
+
+        >
+
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E6B212"
+        android:text="chapri"
+        android:layout_above="@+id/btnlol"
+
+        >
+
+
+    </Button>
+
+</LinearLayout>
